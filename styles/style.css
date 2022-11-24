@@ -1,0 +1,82 @@
+body {
+  min-height: 300vh;
+  margin: 0;
+  padding: 0;
+  padding-top: 100vh;
+  overflow-x: hidden;
+  background: url("../images/bg3.jpg") repeat;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.title-main {
+  z-index: 100;
+}
+.title-2 {
+  z-index: 10;
+  transform: translate(-101%, -39%);
+}
+.title-3 {
+  z-index: 11;
+  transform: translate(-53%, 56%);
+}
+.title-4 {
+  z-index: 12;
+  transform: translate(45%, -30%);
+}
+.title-5 {
+  z-index: 13;
+  transform: translate(33%, -120%);
+}
+.title-6 {
+  z-index: 15;
+  transform: translate(75%, -7%) scale(1.5);
+}
+.title-7 {
+  z-index: 1;
+  transform: translate(73%, -37%) scale(3);
+}
+.title-8 {
+  z-index: 0;
+}
+
+.counter {
+  position: fixed;
+  top: 0;
+  right: 0;
+  min-width: 40px;
+  min-height: 40px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.emo {
+  height: 150vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin: 150vh 0;
+}
+.emo_1 {
+  background-image: url("../images/emo1.jpg");
+}
+.emo_2 {
+  background-image: url("../images/emo2.jpg");
+}
+.emo_3 {
+  background-image: url("../images/emo3.jpg");
+}
+.emo_4 {
+  background-image: url("../images/verka.jpg");
+}
